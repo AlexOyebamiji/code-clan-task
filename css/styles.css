@@ -1,0 +1,188 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 75px;
+    background-color: #202020;
+    line-height: 75px;
+    padding: 0px 100;
+    position: fixed;
+    z-index: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav .logo {
+    letter-spacing: 2px;
+    margin: 0px 0px 0px 10px;
+}
+
+
+nav .logo a {
+    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+    color: white;
+}
+
+nav .logo li {
+    float: left;
+    list-style: none;
+    padding: 0px 20px 0px 0px;
+}
+
+nav .logo li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav .logo li a img {
+    position: relative;
+    top: 10px;
+    left: 9px;
+    width: 40px;
+}
+
+
+/* Search bar */
+
+
+
+.search-bar li {
+    list-style: none;
+}
+
+.search-bar input {
+    position: relative;
+    width: 35em;
+    height: 3em;
+    bottom: 12px;
+    left: 120px;
+    background-color: #121212;
+    border: none;
+}
+
+/* Search logo */
+
+.search-logo {
+    position: absolute;
+    background-color: #313131;
+    width: 50px;
+    height: 41.5px;
+    left: 53.2em;
+    top: 22px;
+}
+
+.search-logo li {
+    list-style: none;
+    position: relative;
+    left: 10px;
+    bottom: 19px;   /* increases the size of icon */
+}
+
+.search-logo li a {
+    font-size: 25px;
+    color: white;
+}
+
+.microphone-logo {
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    width: 40px;
+    height: 33px;
+    left: 57em;
+    top: 26.4px;
+}
+
+.microphone-logo li {
+    list-style: none;
+    position: relative;
+    left: 15px;
+    bottom: 19px;
+}
+
+.microphone-logo li a {
+    font: 20px;
+    color: white;
+}
+
+
+/* Last three icons */
+
+.last-three {
+    float: right;
+    letter-spacing: 20px;
+}
+
+.last-three ul {
+    display: flex;
+}
+
+.last-three li {
+    bottom: 115px;
+    position: relative;
+    list-style: none;
+    padding: 0px 13px 0px 0px;
+}
+
+.last-three li a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+
+
+/* Style for Iframe */
+
+.frame {
+    width: 100%;
+    height: 668px;
+    bottom: 450px;
+    background-color: #181818;
+}
+
+iframe {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 0px;
+    bottom: 100px;
+}
+
+.title {
+    position: absolute;
+    color: white;
+    bottom: 30px;
+    left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.views {
+    position: absolute;
+    color: #93AAAA;
+    bottom: -2px;
+    left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.frame ul {
+    position: absolute;
+    bottom: -5px;
+    left: 400px;
+    display: flex;
+    letter-spacing: 25px;
+   
+}
+
+.frame li {
+    list-style: none;
+}
+
+.frame li a {
+    text-decoration: none;
+    color: white;
+}
